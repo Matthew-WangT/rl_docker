@@ -1,8 +1,9 @@
-torch>=1.4.0
-torchvision>=0.5.0
-numpy==1.23.5
-scipy>=1.5.0
-pyyaml>=5.3.1
+torch==1.10.0
+torchvision==0.11.1
+torchaudio==0.10.0
+numpy
+scipy
+pyyaml
 pillow
 imageio
 ninja

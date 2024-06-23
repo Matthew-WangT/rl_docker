@@ -68,7 +68,7 @@ if [ "$display_flag" = true ]; then
     ${PROJECTNAME} /home/root/rl_ws/rl_docker/setup.sh
 else
   echo "Running Docker without display"
-  docker run -it --rm \
+  docker run -it \
     -v ${SCRIPTROOT}/..:/home/root/rl_ws \
     --network=host \
     --gpus="${gpus}" \
